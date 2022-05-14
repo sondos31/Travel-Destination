@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300&family=Roboto:wght@100;300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Syne+Tactile&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+#divTour{
+    font-family: 'Nunito', sans-serif;
+    color: black;
+    align-items: center;
+    text-align: center;
+    width:50% ;
+    height:fit-content;
+    margin: auto;
+    display: block;
+    align-items: center;
+    border:groove 2px black;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+#content{
+    display: flex;
+    text-align: center;
+    gap: 10px ;
+    justify-content:center;
+    flex-wrap: wrap;
+}
+img{
+    width: 75%;
+    height: fit-content;
+    border-radius: 5%;
+}
