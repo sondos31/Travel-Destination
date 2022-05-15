@@ -1,11 +1,10 @@
 import React from 'react';
-import Header from '../Header/Header.jsx';
-import Tours from '../Tours/Tours.jsx';
-import Footer from '../Footer/Footer.jsx';
-import data from '../../data/data.json';
+import Header from '../Header/Header';
+import Tours from '../Tours/Tours';
+import Footer from '../Footer/Footer';
 import "./Home.css";
 
-export default function Home() {
+export default function Home({data}) {
   return (
     <>
     <Header />

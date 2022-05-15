@@ -1,4 +1,6 @@
+import React from 'react';
 import "./Tours.css";
+import Tour from '../Tours/Tour/Tour.jsx';
 const Tours = (props) =>{
     return(
         <>
@@ -6,10 +8,9 @@ const Tours = (props) =>{
         {
             props.tour.map(data => {
                 return(
-                    <div id="divTour">
-                        <h3>Place :{data.name}</h3>
-                        <img src={data.image} alt="" />
-                    </div>
+                    <>
+                    <Tour data={data}/>
+                    </>
                 )
                 
             })
