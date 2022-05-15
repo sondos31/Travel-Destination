@@ -1,13 +1,12 @@
-import "./Header.css"
+import React from 'react';
+import "./Header.css";
+import Navbar from "../Navbar/Navbar";
 function Header() {
     return(
         <>
         <header>
         <label id="Site_Name">Travel Destination</label>
-        <nav>
-            
-            <a href="https://github.com/Sondos31">My Github</a>
-        </nav>
+        <Navbar />
         </header>
         </>
         
